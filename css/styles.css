@@ -119,17 +119,18 @@ header .container {
   font-weight: 700;
   line-height: 1.07; /* 107.143% */
   letter-spacing: 0.02em;
-  width: 496px;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 188px;
-  margin-bottom: 48px;
+  /* padding-top: 188px;
+  margin-bottom: 48px; */
+  max-width: 496px;
 }
 .hero {
   width: 1440px;
   height: 600px;
   flex-shrink: 0;
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 .hero-btn {
   display: block;
@@ -141,6 +142,10 @@ header .container {
   background: #4d5ae5;
   cursor: pointer;
   margin: 0 auto;
+  min-width: 169px;
+  height: 56px;
+  border-radius: 4px;
+  border: none;
 }
 .hero-btn:hover,
 .hero-btn:focus {
