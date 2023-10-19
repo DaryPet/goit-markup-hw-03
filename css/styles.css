@@ -68,7 +68,7 @@ header .container {
   display: flex;
   padding: 24px 0;
   align-items: center;
-  /* padding: 24px 0; */
+  padding: 24px 0;
 }
 
 .header-nav-list {
@@ -135,9 +135,8 @@ header .container {
   letter-spacing: 0.02em;
   margin-left: auto;
   margin-right: auto;
-  /* padding-top: 188px;
-  margin-bottom: 48px; */
   max-width: 496px;
+  margin-bottom: 48px;
 }
 .hero {
   width: 1440px;
