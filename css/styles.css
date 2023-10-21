@@ -55,8 +55,6 @@ body {
 /* header */
 
 .header-main {
-  padding-top: 24px;
-  padding-bottom: 24px;
   border-bottom: 1px solid #e7e9fc;
 }
 header .container {
@@ -66,9 +64,8 @@ header .container {
 }
 .header-nav {
   display: flex;
-  padding: 24px 0;
   align-items: center;
-  /* padding: 24px 0; */
+
 }
 
 .header-nav-list {
@@ -99,6 +96,7 @@ header .container {
   line-height: 1.5;
   letter-spacing: 0.02em;
   padding: 24px 0;
+  display: block;
 }
 .nav-list:hover,
 .nav-list:focus {
@@ -109,7 +107,6 @@ header .container {
 }
 .adr-list {
   display: flex;
-  padding: 24px 0;
   gap: 40px;
   align-content: flex-end;
 }
@@ -141,6 +138,7 @@ header .container {
 }
 .hero {
   width: 1440px;
+  margin: 0 auto;
   height: 600px;
   flex-shrink: 0;
   background-color: #2e2f42;
@@ -200,9 +198,9 @@ header .container {
 /* Our team */
 
 .team {
-  height: 732px;
+
   background: #f4f4fd;
-  margin-bottom: 120px;
+
   padding: 120px 0;
 }
 
